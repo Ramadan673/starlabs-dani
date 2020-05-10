@@ -11,6 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Navbar, Button, NavDropdown, Nav, Form, FormControl, Col,Container,Card,CardGroup,Row} from 'react-bootstrap';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -27,25 +29,43 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+
+          <footer>
+              <Container>
+                  <Row>
+                      <Col>  <p className="footer-para">Copyright &copy; 2020 Company Name<br/>
+                          Design: TemplateMo</p></Col>
+                      <Col>
+                          <ul className="social-icons">
+                              <li><a className="social-icons-href" href="#">Facebook</a></li>
+                              <li><a className="social-icons-href" href="#">Twitter</a></li>
+                              <li><a className="social-icons-href" href="#">Linkedin</a></li>
+                              <li><a className="social-icons-href" href="#">Instagram</a></li>
+                          </ul>
+                      </Col>
+                      <Col>
+                          <div className="back-to-top">
+                              <a className="tp" href="#top">
+                                  <i className="fa fa-angle-up">^</i>
+                                  back to top
+                              </a>
+                          </div>
+                      </Col>
+                  </Row>
+              </Container>
+          </footer>
       </div>
+
     </>
   )
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
 }
 
 export default Layout
+

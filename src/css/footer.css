@@ -5,7 +5,7 @@ footer {
 ul.social-icons {
     text-align: center;
     padding: 77px 0px;
-
+    margin: 0px;
 }
 footer .social-icons li {
     display: inline;
@@ -22,36 +22,16 @@ a.tp {
     text-align: center;
     background-color: #46bae2;
     display: inline-block;
-    width: 47%;
-    height: 195px;
-    padding: 57px 0;
+    width: 50%;
+    /* height: 50%; */
+    padding: 60px 0px;
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
-    margin-left: 28.666667%;
 }
-a.tp:hover{
-    text-decoration: none;
-    color: white;
-}
-i.fa.fa-angle-up {
-    display: block;
-    font-size: 27px;
-}
-a.social-icons-href {
-    color: #a3afc9;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-decoration: none;
-    letter-spacing: 0.3px;
-    transition: all 0.5s;
-}
-a.social-icons-href:hover{
-    text-decoration: none;
-    color: #a3afc9;
-}
+a.s-p {
 
+}

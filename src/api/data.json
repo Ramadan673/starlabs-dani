@@ -1,0 +1,30 @@
+[{"id":1,"sportCat":"Basketball","player":"Stephen Curry","year":2019,"price":"€39175,58"},
+  {"id":2,"sportCat":"Basketball","player":"Russell Westbrook","year":2019,"price":"€22954,59"},
+  {"id":3,"sportCat":"Basketball","player":"Chris Paul","year":2019,"price":"€22954,59"},
+  {"id":4,"sportCat":"Basketball","player":"Kevin Durant","year":2019,"price":"€22954,59"},
+  {"id":5,"sportCat":"Basketball","player":"James Harden","year":2019,"price":"€22954,59"},
+  {"id":6,"sportCat":"Basketball","player":"John Wall","year":2019,"price":"€22954,59"},
+  {"id":7,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":8,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":9,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":10,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":11,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":12,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":13,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":14,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+  {"id":15,"sportCat":"Basketball","player":"LeBron James","year":2019,"price":"€22954,59"},
+
+
+  {"id":16,"sportCat":"Futboll","player":"Messi","year":2019,"price":"∞"},
+
+  {"id":17,"sportCat":"Futboll","player":"Mohamed Salah","year":2019,"price":"€22.2 "},
+
+  {"id":18,"sportCat":"Futboll","player":"Gareth Bale ","year":2019,"price":"€24 million"},
+  {"id":19,"sportCat":"Futboll","player":"Antoine Griezmann","year":2019,"price":"€24.5 million"},
+  {"id":20,"sportCat":"Futboll","player":"Oscar ","year":2019,"price":"€25.6 million"},
+  {"id":21,"sportCat":"Futboll","player":"Mohamed Salah","year":2019,"price":"€22.2 "},
+
+  {"id":22,"sportCat":"Futboll","player":"Gareth Bale ","year":2019,"price":"€24 million"},
+  {"id":23,"sportCat":"Futboll","player":"Antoine Griezmann","year":2019,"price":"€24.5 million"},
+  {"id":24,"sportCat":"Futboll","player":"Oscar ","year":2019,"price":"€25.6 million"}
+]
