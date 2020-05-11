@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
                   <Link to="/blog" className="nav-link"activeClassName="active">BLOG ENTRIES</Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Link to="/sportet" className="nav-link"activeClassName="active">EXTERNAL</Link>
+                  <Link to="/sportet" className="nav-link"activeClassName="active">POSTS</Link>
                 </Nav.Item>
                 <Nav.Item as="li">
                   <Link to="/contact" className="nav-link"activeClassName="active">CONTACT</Link>
